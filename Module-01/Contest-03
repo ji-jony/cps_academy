@@ -1,6 +1,6 @@
 <!---- Loops ---->
 
-__ A. __ 
+**** A ****
 
 #include<stdio.h>
 int main() {
@@ -12,8 +12,8 @@ int main() {
     } 
     return 0;
 }
-<br>
-B. 
+
+**** B ****
 
 #include<stdio.h>
 int main() {
@@ -30,8 +30,8 @@ int main() {
     } 
     return 0;
 }
-<br>
-C. 
+
+**** C ****
 
 #include<stdio.h>
 int main() {
@@ -43,8 +43,8 @@ int main() {
     } 
     return 0;
 }
-<br>
-D. 
+
+**** D ****
 
 #include<stdio.h>
 int main() {
@@ -67,8 +67,8 @@ int main() {
 
     return 0;
 }
-<br>
-E. 
+
+**** E ****
 
 #include<stdio.h>
 
@@ -86,8 +86,8 @@ int main() {
     }
     return 0;
 }
-<br>
-F. 
+
+**** F ****
 
 #include<stdio.h
 int main() {
