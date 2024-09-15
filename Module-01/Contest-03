@@ -100,7 +100,119 @@ int main() {
     printf("ng\n");
     return 0;
 }
-<br>
+
+**** G ****
+
+#include<stdio.h>
+
+int main() {
+    int n,x,sum=0;
+    scanf("%d %d",&n,&x);
+    int arr[n];
+    for(int i = 0; i < n ; i++){
+        scanf("%d",&arr[i]);
+        if(arr[i]<=x){
+            sum += arr[i];
+        }
+    }
+    printf("%d\n",sum );
+    return 0;
+}
+
+**** F **** 
+
+#include<stdio.h>
+int main() {
+    int t,n;
+    scanf("%d",&t);
+    while(t--){
+        scanf("%d",&n);
+        if(n % 3 == 0){
+            printf("YES\n");
+        }
+        else {
+            printf("NO\n");
+        }
+    }
+    return 0;
+}
+
+**** I ****
+
+#include<stdio.h>
+int main() {
+    int t,n,x;
+    scanf("%d",&t);
+    while(t--){
+        scanf("%d %d",&n,&x);
+        printf("%d\n",n-x );
+    }
+    return 0;
+}
+
+**** J ****
+
+#include<stdio.h>
+
+int main() {
+    int t,n,x;
+    scanf("%d",&t);
+    while(t--){
+        scanf("%d %d",&n,&x);
+        if(n<=x){
+            printf("YES\n");
+        }
+        else {
+            printf("NO\n");
+        }
+    }
+    return 0;
+}
+
+**** L ****
+
+#include<stdio.h>
+int main() {
+    int t,x;
+    scanf("%d",&t);
+    while(t--){
+        scanf("%d",&x);
+        if(x<1400){
+            printf("Division 4\n");
+        }
+        else if(x<1600){
+            printf("Division 3\n");
+        }
+        else if(x<1900){
+            printf("Division 2\n");
+        }
+        else {
+            printf("Division 1\n");
+        }
+        
+    }
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
