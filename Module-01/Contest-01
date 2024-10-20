@@ -265,8 +265,106 @@ int main() {
 
 
 **** O ****
+
+#include<iostream>
+#include<iomanip>
+#include<cmath>
+using namespace std;
+
+int main() {
+
+    int bn[128], n ;
+    int cnt = 0;
+
+    cin >> n ;
+
+    int i = 0;
+
+    while(n > 0){
+        bn[i] = n % 2 ;
+        n = n/2 ;
+        i++;
+    }
+    for(int j = 0; j <= i-1 ; j++){
+        if(bn[j] == 0){
+            cnt++;
+        }
+        if(bn[j] == 1){
+            break;
+        }
+    }
+    cout << cnt << endl;
+
+    return 0;
+}
+
+
 **** P ****
+
+#include<iostream>
+#include<iomanip>
+#include<cmath>
+#include<bitset>
+using namespace std;
+
+int main() {
+
+    int a,b ;
+
+    cin >> a >> b ;
+
+    cout << a*b << " " << 2*(a+b) << endl ;
+
+
+
+    return 0;
+}
+
+
 **** Q ****
+
+#include<iostream>
+#include<iomanip>
+#include<cmath>
+#include<bitset>
+using namespace std;
+
+int main() {
+
+    int a ;
+
+    cin >> a ;
+    int res = pow(a,3) ;
+
+    cout << res << endl ;
+
+
+
+    return 0;
+}
+
+
+**** R ****
+
+#include<iostream>
+#include<iomanip>
+#include<cmath>
+#include<bitset>
+using namespace std;
+
+int main() {
+
+    int a , b ;
+
+    cin >> a >> b;
+
+    int res = pow(a,b) + pow(b,a);
+
+    cout << res << endl ;
+
+
+    return 0;
+}
 
 
 
