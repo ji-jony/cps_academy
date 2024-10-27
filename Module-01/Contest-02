@@ -1,1 +1,242 @@
+///// Conditional Statement /////
 
+
+**** A ****
+
+#include<iostream>
+using namespace std;
+
+int main() {
+
+    int n;
+    cin >> n;
+     if(n == 7) {
+        cout << "THALA" << endl ;
+     }
+     else{
+        cout << "SADGE" << endl;
+     }
+
+    return 0;
+}
+
+
+**** B ****
+#include<iostream>
+using namespace std;
+
+int main() {
+
+    int a,b;
+    cin >> a >> b;
+     if(a > b) {
+        cout << "a > b" << endl ;
+     }
+     else if(a < b){
+        cout << "a < b" << endl ;
+     }
+     else{
+        cout << "a == b" << endl;
+     }
+
+    return 0;
+}
+
+
+**** C ****
+
+#include<iostream>
+using namespace std;
+
+int main() {
+
+    int a,b,c;
+    cin >> a >> b >> c;
+     if(a < b && b < c ) {
+        cout << "Yes" << endl ;
+     }
+     else{
+        cout << "No" << endl;
+     }
+
+    return 0;
+}
+
+
+**** D ****
+
+#include<iostream>
+using namespace std;
+
+int main() {
+
+    int n;
+    cin >> n;
+     if(n == 404 ) {
+        cout << "NOT FOUND" << endl ;
+     }
+     else{
+        cout << "FOUND" << endl;
+     }
+
+    return 0;
+}
+
+
+**** E ****
+
+#include<iostream>
+using namespace std;
+
+int main() {
+
+    int x,y;
+    cin >> x >> y;
+
+    if(x > y){
+        if((x-y) > 3){
+            cout << "No" << endl;
+        }
+        else {
+            cout << "Yes" << endl;
+        }
+    }
+    else {
+        if((y-x) > 2){
+            cout << "No" << endl;
+        }
+        else {
+            cout << "Yes" << endl;
+
+        }
+    }
+
+    return 0;
+}
+
+
+**** F ****
+
+#include<iostream>
+using namespace std;
+
+int main() {
+
+    int x;
+    cin >> x;
+
+    if(x > 11){
+        cout << "YES" << endl;
+    }
+    else {
+        cout << "NO" << endl;
+    }
+
+    return 0;
+}
+
+
+**** G ****
+
+#include<iostream>
+using namespace std;
+
+int main() {
+
+    int x,y;
+    cin >> x >> y;
+
+    if(x >= 60 && y <= 130){
+        cout << "YES" << endl;
+    }
+    else {
+        cout << "NO" << endl;
+    }
+
+    return 0;
+}
+
+**** H ****
+
+#include<iostream>
+using namespace std;
+
+int main() {
+
+    int x;
+    cin >> x ;
+
+    if(x >= 12){
+        cout << "Yes" << endl;
+    }
+    else {
+        cout << "No" << endl;
+    }
+
+    return 0;
+}
+
+
+**** I ****
+
+#include<iostream>
+using namespace std;
+
+int main() {
+
+    int x,y,x1,y1,d,r;
+    cin >> x >> y;
+    cin >> x1 >> y1;
+
+    d = x + x1;
+    r = y + y1;
+
+    if (d > r) {
+        cout << "Dominater" << endl ;
+    }
+    else {
+        cout << "Everule" << endl;
+    }
+
+    return 0;
+}
+
+
+**** J ****
+
+#include<iostream>
+using namespace std;
+
+int main() {
+
+    int x,y,z;
+    cin >> x >> y >> z;
+
+    if (x > y && x > z) {
+        cout << "Yes" << endl ;
+    }
+    else {
+        cout << "No" << endl;
+    }
+
+    return 0;
+}
+
+
+**** K ****
+
+**** L ****
+
+**** M ****
+
+**** O ****
+
+**** P ****
+
+**** Q ****
+
+**** R ****
+
+**** S ****
+
+**** T ****
