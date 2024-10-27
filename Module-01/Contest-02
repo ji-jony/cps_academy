@@ -225,11 +225,114 @@ int main() {
 
 **** K ****
 
+#include<iostream>
+using namespace std;
+
+int main() {
+
+    int x,y,z;
+    cin >> x >> y >> z ;
+
+    if(x > y) {
+        swap(x,y);
+    }
+    if(x > z){
+        swap(x,z);
+    }
+    if(y > z){
+        swap(y,z);
+    }
+
+
+    cout << x << " " << y << " " << z << endl;
+
+    return 0;
+}
+
+
 **** L ****
+
+#include<iostream>
+using namespace std;
+
+int main() {
+
+    int x;
+    cin >> x;
+    if(x < 3){
+        cout << "GOLD" << endl;
+    }
+    else if(x < 6){
+        cout << "SILVER" << endl;
+    }
+    else {
+        cout << "BRONZE" << endl;
+    }
+
+    return 0;
+}
+
 
 **** M ****
 
+#include<iostream>
+using namespace std;
+
+int main() {
+
+    int x;
+    cin >> x;
+    if(x == 8 || x == 9 || x == 10){
+        cout << "YES" << endl;
+    }
+    else {
+        cout << "NO" << endl;
+    }
+
+    return 0;
+}
+
+**** N ****
+
+#include<iostream>
+using namespace std;
+
+int main() {
+
+    int x;
+    cin >> x;
+    if(x < 100){
+        cout << "YES" << endl;
+    }
+    else {
+        cout << "NO" << endl;
+    }
+
+    return 0;
+}
+
+
 **** O ****
+#include<iostream>
+using namespace std;
+
+int main() {
+
+    int x,y;
+    cin >> x >> y;
+    if(x < y){
+        cout << "Old" << endl;
+    }
+    else if(x > y) {
+        cout << "New" << endl;
+    }
+    else {
+        cout << "Same" << endl;
+    }
+
+    return 0;
+}
+
 
 **** P ****
 
