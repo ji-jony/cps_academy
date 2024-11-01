@@ -158,6 +158,70 @@ int main() {
 **** J ****
 **** K ****
 **** L ****
+
+#include<bits/stdc++.h>
+//#include<iostream>
+//#include<string>
+//#include<cmath>
+using namespace std;
+
+#define testcase int TT; cin >> TT; for (int tc = 0; tc < TT; tc++)
+#define endl "\n"
+#define PI (2.0 * acos(0.0))
+typedef long long ll;
+
+// LCM Formula : 
+/* int lcm(int a, int b){
+	return (a * b) / __gcd(a , b);
+} */
+
+
+/// Instead of Build in Function Ceil, for no data loss ;
+/*int ceil(int a, int b) {
+	return (a + b - 1) / b;
+}*/
+
+
+void solve() {
+
+	int n; 
+	cin >> n;
+
+	int x = n % 10 ;
+
+	if(x == 1 || x ==6){
+		cout << n - 1 << endl;
+	}
+	else if(x == 2 || x == 7){
+		cout << n - 2 << endl;
+	}
+	else if(x == 3 || x == 8){
+		cout << n + 2 << endl;
+	}
+	else if(x == 4 || x == 9){
+		cout << n + 1 << endl;
+	}
+	else if (x == 0 || x == 5){
+		cout << n << endl;
+	}
+
+	
+
+}	
+
+
+int main() {
+
+	ios_base::sync_with_stdio(false);
+	cin.tie(NULL);
+
+	//testcase{
+		//cout << "Case " << tc+1 << " : " ;
+		solve();
+	//}
+
+	return 0;
+}
 **** M ****
 **** N ****
 **** O ****
@@ -512,10 +576,107 @@ int main() {
 	return 0;
 }
 
+**** X ****
+
+#include<bits/stdc++.h>
+//#include<iostream>
+//#include<string>
+//#include<cmath>
+using namespace std;
+
+#define testcase int TT; cin >> TT; for (int tc = 0; tc < TT; tc++)
+#define endl "\n"
+#define PI (2.0 * acos(0.0))
+typedef long long ll;
+
+// LCM Formula : 
+/* int lcm(int a, int b){
+	return (a * b) / __gcd(a , b);
+} */
 
 
+/// Instead of Build in Function Ceil, for no data loss ;
+/*int ceil(int a, int b) {
+	return (a + b - 1) / b;
+}*/
 
 
+void solve() {
+
+	int a, b; 
+	cin >> a;
+	cin >> b;
+	
+	cout << 6 - (a + b) << endl;;
+
+}	
+
+
+int main() {
+
+	ios_base::sync_with_stdio(false);
+	cin.tie(NULL);
+
+	//testcase{
+		//cout << "Case " << tc+1 << " : " ;
+		solve();
+	//}
+
+	return 0;
+}
+
+
+**** AB ****
+
+#include<bits/stdc++.h>
+//#include<iostream>
+//#include<string>
+//#include<cmath>
+using namespace std;
+
+#define testcase int TT; cin >> TT; for (int tc = 0; tc < TT; tc++)
+#define endl "\n"
+#define PI (2.0 * acos(0.0))
+typedef long long ll;
+
+// LCM Formula : 
+/* int lcm(int a, int b){
+	return (a * b) / __gcd(a , b);
+} */
+
+
+/// Instead of Build in Function Ceil, for no data loss ;
+/*int ceil(int a, int b) {
+	return (a + b - 1) / b;
+}*/
+
+
+void solve() {
+
+	int n; 
+	cin >> n;
+
+	int h = n / 3600;
+	int m = (n % 3600) / 60 ; 
+	int s = n - ((h*3600) + (m*60)) ;
+
+	cout << h << ":" << m << ":" << s << endl ;	
+
+}	
+
+
+int main() {
+
+	ios_base::sync_with_stdio(false);
+	cin.tie(NULL);
+
+	//testcase{
+		//cout << "Case " << tc+1 << " : " ;
+		solve();
+	//}
+
+	return 0;
+}
 
 
 
