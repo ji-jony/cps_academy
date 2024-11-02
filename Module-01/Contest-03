@@ -194,11 +194,76 @@ int main() {
     return 0;
 }
 
+**** M ****
+
+string ball[6] ;
+	for(int i = 0; i < 6; i++){
+		cin >> ball[i] ;
+	}
+	bool hat = false ;
+
+	for(int i = 0; i < 4; i++){
+		if(ball[i] == "W" && ball[i+1] == "W" && ball[i+2] == "W"){
+			hat = true ;
+		}
+	}
+	if(hat){
+		cout << "YES" << endl;
+	}
+	else {
+		cout << "NO" << endl;
+	}
+
+**** N ****
+
+    int x,n;
+	cin >> x >> n;
+
+	if( x*100 > n){
+		cout << 0 << endl;
+	}
+	else {
+		int res = n - (x*100) ;
+		if(res % 100 == 0){
+			cout << res / 100 << endl;
+		}
+		else {
+			cout << (res / 100) + 1 << endl;
+		}
+	}
+
+**** O ****
+
+    int n;
+	cin >> n;
+
+	cout << 24 * n * 1000 << endl;
+
+**** P ****
+
+    int x,y,z;
+	cin >> x >> y >> z ;
+
+	if((x * y) <= (z * 24 * 60)){
+		cout << "YES" << endl;
+	}
+	else {
+		cout << "NO" << endl;
+	}
+
+**** Q ****
+
+int n,k;
+	cin >> n >> k ;
+
+	int res = (n / (k+1)) ;
+	int rem = n - (res * (k+1)) ;
+
+	cout << res + rem << endl; 
 
 
 
-
-
+>> K
 
 
 
