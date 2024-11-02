@@ -3,16 +3,6 @@
 
 **** A ****
 
-//#include<bits/stdc++.h>
-#include<iostream>
-using namespace std;
-
-#define testcase int TT; cin >> TT; for (int tc = 0; tc < TT; tc++)
-#define endl "\n"
-#define PI (2.0 * acos(0.0))
-typedef long long ll;
-
-
 void solve() {
 	int n,m,p;
 	int cnt = 0;
@@ -37,30 +27,8 @@ void solve() {
 }	
 
 
-int main() {
-
-	ios_base::sync_with_stdio(false);
-	cin.tie(NULL);
-
-	//testcase{
-		//cout << "Case " << tc+1 << " : " ;
-		solve();
-	//}
-
-	return 0;
-}
-
 
 **** B ****
-//#include<bits/stdc++.h>
-#include<iostream>
-using namespace std;
-
-#define testcase int TT; cin >> TT; for (int tc = 0; tc < TT; tc++)
-#define endl "\n"
-#define PI (2.0 * acos(0.0))
-typedef long long ll;
-
 
 void solve() {
 	int x1,y1,x2,y2,x3,y3,x4,y4;
@@ -82,35 +50,29 @@ void solve() {
 }	
 
 
-int main() {
-
-	ios_base::sync_with_stdio(false);
-	cin.tie(NULL);
-
-	testcase{
-		//cout << "Case " << tc+1 << " : " ;
-		solve();
-	}
-
-	return 0;
-}
-
 **** C ****
 **** D ****
+
+void solve() {
+
+	int a, b;
+	cin >> a >> b;
+
+	if(((a == 2 || b == 2) && a+b > 3)|| (a%2==0 && b%2==0)){
+		cout << "Yes" << endl;
+	}
+	else {
+		cout << "No" << endl;
+	}
+	
+	
+
+
+}	
+
+
 **** E ****
 **** F ****
-
-//#include<bits/stdc++.h>
-#include<iostream>
-#include<string>
-#include<cmath>
-using namespace std;
-
-#define testcase int TT; cin >> TT; for (int tc = 0; tc < TT; tc++)
-#define endl "\n"
-#define PI (2.0 * acos(0.0))
-typedef long long ll;
-
 
 void solve() {
 
@@ -139,18 +101,6 @@ void solve() {
 }	
 
 
-int main() {
-
-	ios_base::sync_with_stdio(false);
-	cin.tie(NULL);
-
-	testcase{
-		//cout << "Case " << tc+1 << " : " ;
-		solve();
-	}
-
-	return 0;
-}
 
 **** G ****
 **** H ****
@@ -158,29 +108,6 @@ int main() {
 **** J ****
 **** K ****
 **** L ****
-
-#include<bits/stdc++.h>
-//#include<iostream>
-//#include<string>
-//#include<cmath>
-using namespace std;
-
-#define testcase int TT; cin >> TT; for (int tc = 0; tc < TT; tc++)
-#define endl "\n"
-#define PI (2.0 * acos(0.0))
-typedef long long ll;
-
-// LCM Formula : 
-/* int lcm(int a, int b){
-	return (a * b) / __gcd(a , b);
-} */
-
-
-/// Instead of Build in Function Ceil, for no data loss ;
-/*int ceil(int a, int b) {
-	return (a + b - 1) / b;
-}*/
-
 
 void solve() {
 
@@ -210,33 +137,10 @@ void solve() {
 }	
 
 
-int main() {
-
-	ios_base::sync_with_stdio(false);
-	cin.tie(NULL);
-
-	//testcase{
-		//cout << "Case " << tc+1 << " : " ;
-		solve();
-	//}
-
-	return 0;
-}
 **** M ****
 **** N ****
 **** O ****
 **** P ****
-
-//#include<bits/stdc++.h>
-#include<iostream>
-#include<string>
-#include<cmath>
-using namespace std;
-
-#define testcase int TT; cin >> TT; for (int tc = 0; tc < TT; tc++)
-#define endl "\n"
-#define PI (2.0 * acos(0.0))
-typedef long long ll;
 
 
 void solve() {
@@ -255,32 +159,7 @@ void solve() {
 }	
 
 
-int main() {
-
-	ios_base::sync_with_stdio(false);
-	cin.tie(NULL);
-
-	//testcase{
-		//cout << "Case " << tc+1 << " : " ;
-		solve();
-	//}
-
-	return 0;
-}
-
-
 **** Q ****
-
-//#include<bits/stdc++.h>
-#include<iostream>
-#include<string>
-#include<cmath>
-using namespace std;
-
-#define testcase int TT; cin >> TT; for (int tc = 0; tc < TT; tc++)
-#define endl "\n"
-#define PI (2.0 * acos(0.0))
-typedef long long ll;
 
 
 void solve() {
@@ -298,33 +177,7 @@ void solve() {
 }	
 
 
-int main() {
-
-	ios_base::sync_with_stdio(false);
-	cin.tie(NULL);
-
-	//testcase{
-		//cout << "Case " << tc+1 << " : " ;
-		solve();
-	//}
-
-	return 0;
-}
-
-
 **** R ****
-
-//#include<bits/stdc++.h>
-#include<iostream>
-#include<string>
-#include<cmath>
-using namespace std;
-
-#define testcase int TT; cin >> TT; for (int tc = 0; tc < TT; tc++)
-#define endl "\n"
-#define PI (2.0 * acos(0.0))
-typedef long long ll;
-
 
 void solve() {
 
@@ -339,32 +192,7 @@ void solve() {
 }	
 
 
-int main() {
-
-	ios_base::sync_with_stdio(false);
-	cin.tie(NULL);
-
-	//testcase{
-		//cout << "Case " << tc+1 << " : " ;
-		solve();
-	//}
-
-	return 0;
-}
-
-
 **** S ****
-
-//#include<bits/stdc++.h>
-#include<iostream>
-#include<string>
-#include<cmath>
-using namespace std;
-
-#define testcase int TT; cin >> TT; for (int tc = 0; tc < TT; tc++)
-#define endl "\n"
-#define PI (2.0 * acos(0.0))
-typedef long long ll;
 
 
 void solve() {
@@ -380,32 +208,7 @@ void solve() {
 }	
 
 
-int main() {
-
-	ios_base::sync_with_stdio(false);
-	cin.tie(NULL);
-
-	//testcase{
-		//cout << "Case " << tc+1 << " : " ;
-		solve();
-	//}
-
-	return 0;
-}
-
 **** T ****
-
-//#include<bits/stdc++.h>
-#include<iostream>
-#include<string>
-#include<cmath>
-using namespace std;
-
-#define testcase int TT; cin >> TT; for (int tc = 0; tc < TT; tc++)
-#define endl "\n"
-#define PI (2.0 * acos(0.0))
-typedef long long ll;
-
 
 void solve() {
 
@@ -422,37 +225,7 @@ void solve() {
 }	
 
 
-int main() {
-
-	ios_base::sync_with_stdio(false);
-	cin.tie(NULL);
-
-	//testcase{
-		//cout << "Case " << tc+1 << " : " ;
-		solve();
-	//}
-
-	return 0;
-}
-
 **** U ****
-
-#include<bits/stdc++.h>
-//#include<iostream>
-//#include<string>
-//#include<cmath>
-using namespace std;
-
-#define testcase int TT; cin >> TT; for (int tc = 0; tc < TT; tc++)
-#define endl "\n"
-#define PI (2.0 * acos(0.0))
-typedef long long ll;
-
-
-/// Instead of Build in Function Ceil, for no data loss ;
-/*int ceil(int a, int b) {
-	return (a + b - 1) / b;
-}*/
 
 
 void solve() {
@@ -469,39 +242,9 @@ void solve() {
 
 }	
 
-
-int main() {
-
-	ios_base::sync_with_stdio(false);
-	cin.tie(NULL);
-
-	//testcase{
-		//cout << "Case " << tc+1 << " : " ;
-		solve();
-	//}
-
-	return 0;
-}
 
 **** V ****
 
-#include<bits/stdc++.h>
-//#include<iostream>
-//#include<string>
-//#include<cmath>
-using namespace std;
-
-#define testcase int TT; cin >> TT; for (int tc = 0; tc < TT; tc++)
-#define endl "\n"
-#define PI (2.0 * acos(0.0))
-typedef long long ll;
-
-
-/// Instead of Build in Function Ceil, for no data loss ;
-/*int ceil(int a, int b) {
-	return (a + b - 1) / b;
-}*/
-
 
 void solve() {
 
@@ -518,39 +261,7 @@ void solve() {
 }	
 
 
-int main() {
-
-	ios_base::sync_with_stdio(false);
-	cin.tie(NULL);
-
-	//testcase{
-		//cout << "Case " << tc+1 << " : " ;
-		solve();
-	//}
-
-	return 0;
-}
-
-
 **** W ****
-
-#include<bits/stdc++.h>
-//#include<iostream>
-//#include<string>
-//#include<cmath>
-using namespace std;
-
-#define testcase int TT; cin >> TT; for (int tc = 0; tc < TT; tc++)
-#define endl "\n"
-#define PI (2.0 * acos(0.0))
-typedef long long ll;
-
-
-/// Instead of Build in Function Ceil, for no data loss ;
-/*int ceil(int a, int b) {
-	return (a + b - 1) / b;
-}*/
-
 
 void solve() {
 
@@ -563,42 +274,8 @@ void solve() {
 }	
 
 
-int main() {
-
-	ios_base::sync_with_stdio(false);
-	cin.tie(NULL);
-
-	//testcase{
-		//cout << "Case " << tc+1 << " : " ;
-		solve();
-	//}
-
-	return 0;
-}
-
 **** X ****
 
-#include<bits/stdc++.h>
-//#include<iostream>
-//#include<string>
-//#include<cmath>
-using namespace std;
-
-#define testcase int TT; cin >> TT; for (int tc = 0; tc < TT; tc++)
-#define endl "\n"
-#define PI (2.0 * acos(0.0))
-typedef long long ll;
-
-// LCM Formula : 
-/* int lcm(int a, int b){
-	return (a * b) / __gcd(a , b);
-} */
-
-
-/// Instead of Build in Function Ceil, for no data loss ;
-/*int ceil(int a, int b) {
-	return (a + b - 1) / b;
-}*/
 
 
 void solve() {
@@ -612,44 +289,7 @@ void solve() {
 }	
 
 
-int main() {
-
-	ios_base::sync_with_stdio(false);
-	cin.tie(NULL);
-
-	//testcase{
-		//cout << "Case " << tc+1 << " : " ;
-		solve();
-	//}
-
-	return 0;
-}
-
-
 **** AB ****
-
-#include<bits/stdc++.h>
-//#include<iostream>
-//#include<string>
-//#include<cmath>
-using namespace std;
-
-#define testcase int TT; cin >> TT; for (int tc = 0; tc < TT; tc++)
-#define endl "\n"
-#define PI (2.0 * acos(0.0))
-typedef long long ll;
-
-// LCM Formula : 
-/* int lcm(int a, int b){
-	return (a * b) / __gcd(a , b);
-} */
-
-
-/// Instead of Build in Function Ceil, for no data loss ;
-/*int ceil(int a, int b) {
-	return (a + b - 1) / b;
-}*/
-
 
 void solve() {
 
@@ -664,19 +304,6 @@ void solve() {
 
 }	
 
-
-int main() {
-
-	ios_base::sync_with_stdio(false);
-	cin.tie(NULL);
-
-	//testcase{
-		//cout << "Case " << tc+1 << " : " ;
-		solve();
-	//}
-
-	return 0;
-}
 
 
 
