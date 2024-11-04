@@ -262,6 +262,22 @@ int n,k;
 	cout << res + rem << endl; 
 
 
+**** R ****
+
+int x, y, z;
+	cin >> x >> y >> z;	
+
+	int res = (x*y)/2 ;
+
+	if( z > res){
+		cout << "YES" << endl;
+	}
+	else {
+		cout << "NO" << endl;
+	}
+
+
+
 
 >> K
 
