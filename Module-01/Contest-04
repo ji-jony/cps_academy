@@ -1,3 +1,52 @@
+**** A **** 
+
+int n,odd = 0;
+	cin >> n;
+	int a[n];
+
+	for(int i=0; i<n; i++){
+		cin >> a[i];
+		if(a[i] %2 != 0){
+			odd++;
+		}
+	}
+	cout << odd << endl;
+
+**** B ****
+
+int n;
+	cin >> n;
+	int a[7];
+	int sum = 0;
+	for(int i=1; i<=n; i++){
+		for(int j=1; j<=7; j++){
+			cin >> a[i];
+			sum += a[i];
+		}
+		cout << sum << " ";
+		sum = 0;
+	}
+
+
+**** I ****
+
+int n;
+	cin >> n;
+	long long sum = 0;
+	int a[n] ;
+	for(int i=0; i<n; i++){
+		cin >> a[i];
+		sum += a[i];
+	}
+	long long s = sqrt(sum);
+
+	if(s*s == sum){
+		cout << "YES" << endl;
+	}
+	else{
+		cout << "NO" << endl;
+	}
+
 **** M ****
 
 int n,pro = 1;
