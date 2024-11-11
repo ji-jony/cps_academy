@@ -27,6 +27,28 @@ int n;
 		sum = 0;
 	}
 
+**** F ****
+
+int a[8];
+	int c1 = 0,c2= 0,c3 =0;
+	for(int i=0; i<8; i++){
+		cin >> a[i];
+		if((a[i] >=100 && a[i]<=675) && (a[i]%25==0)){
+			c2++;
+		}
+	}
+	for(int i=0; i<=8; i++){
+		if(a[i] <= a[i+1]){
+			c1++;
+		}
+	}
+	if((c1 == 8) && (c2 ==8)){
+		cout << "Yes" <<endl; 
+	}
+	else {
+		cout << "No" << endl;
+	}
+
 
 **** I ****
 
@@ -46,6 +68,40 @@ int n;
 	else{
 		cout << "NO" << endl;
 	}
+
+
+**** K ****
+
+int n;
+	cin >> n;
+	int a[(4*n)-1];
+	int f[n+1]={};
+	for(int i=0; i<(4*n)-1; i++){
+		cin >> a[i];
+		f[a[i]]++;
+	}
+	int ans;
+	for(int i=1; i<=n; i++){
+		if(f[i] != 4){
+			ans = i;
+		}
+	}
+	cout << ans << endl;
+
+
+**** L ****
+
+int n,sum = 0,total =0;
+	cin >> n;
+	int a[n-1];
+	for(int i=0; i<n-1; i++){
+		cin >> a[i];
+		sum += a[i];
+	}
+	for(int i=1; i<=n; i++){
+		total += i;
+	}
+	cout << total - sum << endl;
 
 **** M ****
 
